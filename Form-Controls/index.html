@@ -1,28 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My form exercise</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Product Pick</h1>
-  </header>
-  <main>
-  <form>
-    <!-- write your html here-->
-    <!-- try writing out the requirements first-->
-  </form>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My form exercise</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Product Pick</h1>
+    </header>
+    <main>
+      <form>
+        <label for = "customer_name"</label>Name </label>
+        <input id = "name" type = "text" name = "customer_name" required />
+        <br><br>
+        <label for = "email"</label>email </label>
+        <input id = "email" type = "email" name = "customer_name" />
+        <br>
+        <fieldset>
 
-  </main>
-  <footer>
-    <!-- change to your name-->
-    <h2>By HOMEWORK SOLUTION</h2>
-  </footer>
-</body>
+          <legend>T-shirt color</legend>
+       
+          <input id = "blue" type = "radio" name = "T-shirt_color" value = "blue"/>
+          <label for = "T-shirt_color">blue</label>
 
+          <input id = "red" type = "radio" name = "T-shirt_color" value = "red"/>
+          <label for = "T-shirt_color">red</label>
+ 
+          <input id = "white" type = "radio" name = "T-shirt_color" value = "white "/>
+          <label for = "T-shirt_color">red</label>
+
+        </fieldset>
+
+        <fieldset>
+
+          <legend>Size</legend>
+       
+          <input id = "XS" type = "checkbox" name = "Size" value = "XS" />
+          <label for = "XS">XS</label>
+
+          <input id = "S" type = "checkbox" name = "Size" value = "S" />
+          <label for = "S">S</label>
+ 
+          <input id = "M" type = "checkbox" name = "Size" value = "M" />
+          <label for = "M">M</label>
+
+          <input id = "L" type = "checkbox" name = "Size" value = "L" />
+          <label for = "L">L</label>
+
+          <input id = "XL" type = "checkbox" name = "Size" value = "XL" />
+          <label for = "XL">XL</label>
+          
+        </fieldset>
+
+        <label for ="date" >Date </label>
+
+        <input type = "date" id = "date" name = "Delivery date" 
+        value = "yyyy-mm-dd" min = "2021-11-20" max = "" > 
+
+        <button type = "submit">Submit</button>
+
+        
+        <!-- write your html here-->
+        <!-- try writing out the requirements first-->
+      </form>
+    </main>
+    <footer>
+      <!-- change to your name
+      <h2>By HOMEWORK SOLUTION</h2>-->
+    </footer>
+  </body>
 </html>
